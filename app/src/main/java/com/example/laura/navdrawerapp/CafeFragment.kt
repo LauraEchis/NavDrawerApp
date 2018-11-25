@@ -13,12 +13,12 @@ class CafeFragment: Fragment() {
         val view: View = inflater.inflate(R.layout.fragment_cafe, container, false)
         var listView = view.findViewById<ListView>(R.id.cafe_listView)
         var arrcafe: ArrayList<Cafe> = ArrayList()
-//        arrcafe.add(Cafe("Смердящий гусь (Речные земли)", R.drawable.stinkin_goose))
-        arrcafe.add(Cafe("Red Keep", R.drawable.red_keep))
-        arrcafe.add(Cafe("Red Keep", R.drawable.red_keep))
-        arrcafe.add(Cafe("Red Keep", R.drawable.red_keep))
-        arrcafe.add(Cafe("Red Keep", R.drawable.red_keep))
-        arrcafe.add(Cafe("Red Keep", R.drawable.red_keep))
+        arrcafe.add(Cafe("Смердящий гусь (Речные земли)", R.drawable.stinkin_goose ))
+        arrcafe.add(Cafe("Перо и кружка (Старомест, Простор)", R.drawable.quill_and_tankard))
+        arrcafe.add(Cafe("Коленопреклонённый (Север)", R.drawable.kneeling_inn))
+        arrcafe.add(Cafe("Дымящееся полено (Зимний городок, Север)", R.drawable.smoking_log))
+        arrcafe.add(Cafe("Семь мечей (Сумеречный дол, Королевские земли)", R.drawable.seven_swords))
+        arrcafe.add(Cafe("Клетчатая доска (Старомест, Простор)", R.drawable.checkered_hazard))
 
         listView.adapter = CafeAdapter(this.context as Context, arrcafe)
 

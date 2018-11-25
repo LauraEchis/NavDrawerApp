@@ -16,8 +16,15 @@ class SightseeingFragment: Fragment() {
         val view: View = inflater.inflate(R.layout.fragment_sightseeing, container, false)
         var listView = view.findViewById<ListView>(R.id.sightseeing_listView)
         var arrSightseeing: ArrayList<Sightseeing> = ArrayList()
-        arrSightseeing.add(Sightseeing("The Wall", R.drawable.wall))
-        arrSightseeing.add(Sightseeing("Red Keep", R.drawable.red_keep))
+        arrSightseeing.add(Sightseeing("Стена", R.drawable.wall))
+        arrSightseeing.add(Sightseeing("Красный замок", R.drawable.red_keep))
+        arrSightseeing.add(Sightseeing("Орлиное гнездо", R.drawable.eyrie))
+        arrSightseeing.add(Sightseeing("Утёс Кастерли", R.drawable.casterly_rock))
+        arrSightseeing.add(Sightseeing("Хайгарден", R.drawable.highgarden))
+        arrSightseeing.add(Sightseeing("Пайк", R.drawable.pyke))
+        arrSightseeing.add(Sightseeing("Риверран", R.drawable.riverran))
+        arrSightseeing.add(Sightseeing("Штормовой Предел", R.drawable.stormend))
+        arrSightseeing.add(Sightseeing("Винтерфелл", R.drawable.winterfell))
 
         listView.adapter = SightseeingAdapter(this.context as Context, arrSightseeing)
 

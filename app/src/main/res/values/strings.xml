@@ -6,7 +6,7 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Описание</string>
     <string name="action_settings">Настройки</string>
-    <string name="sightseeing_string">Сходить в поход</string>
-    <string name="cafe_string">Зайти в таверну</string>
-    <string name="event_string">Присоединиться к гуляниям</string>
+    <string name="sightseeing_string">Замки</string>
+    <string name="cafe_string">Таверны</string>
+    <string name="event_string">Битвы</string>
 </resources>

@@ -14,8 +14,12 @@ class EventFragment: Fragment() {
         val view: View = inflater.inflate(R.layout.fragment_event, container, false)
         var listView = view.findViewById<ListView>(R.id.event_listView)
         var arrevent: ArrayList<Event> = ArrayList()
-        arrevent.add(Event("The Wall", R.drawable.wall, "15/07/363 З.Э."))
-        arrevent.add(Event("Red Keep", R.drawable.red_keep, "16/07/363 З.Э."))
+        arrevent.add(Event("Колокольная бива", R.drawable.battle_of_the_bells, "283 после З.Э."))
+        arrevent.add(Event("Битва на Трезубце", R.drawable.trident, "283 после З.Э."))
+        arrevent.add(Event("Битва на Кулаке Первых людей", R.drawable.battle_on_the_fist, "299 после З.Э."))
+        arrevent.add(Event("Битва на Черноводной", R.drawable.blackwater_battle, "299 после З.Э."))
+        arrevent.add(Event("Битва при Винтерфелле", R.drawable.winterfell_battle, "299 после З.Э."))
+
 
         listView.adapter = EventAdapter(this.context as Context, arrevent)
 
