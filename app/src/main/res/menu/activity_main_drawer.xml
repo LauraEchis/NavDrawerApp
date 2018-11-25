@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_sightseeing"
+                android:icon="@mipmap/castle"
+                android:title="@string/sightseeing_string"/>
+        <item
+                android:id="@+id/nav_cafe"
+                android:icon="@mipmap/dish"
+                android:title="@string/cafe_string"/>
+        <item
+                android:id="@+id/nav_event"
+                android:icon="@mipmap/balloons"
+                android:title="@string/event_string"/>
+
+    </group>
+
+
+
+</menu>
